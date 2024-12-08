@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC Kahot - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Willkommen beim BBC Kahot-Quiz!</h1>
+
+        <!-- Sorular ve cevaplar -->
+        <div id="questionDiv">
+            <p id="question">Frage wird hier angezeigt...</p>
+            <button id="answer1" onclick="submitAnswer(1)">Antwort 1</button>
+            <button id="answer2" onclick="submitAnswer(2)">Antwort 2</button>
+            <button id="answer3" onclick="submitAnswer(3)">Antwort 3</button>
+            <button id="answer4" onclick="submitAnswer(4)">Antwort 4</button>
+        </div>
+
+        <!-- Skor -->
+        <p id="score" style="display:none;">Punkte: 0</p>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
